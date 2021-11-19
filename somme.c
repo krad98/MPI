@@ -1,4 +1,15 @@
-// Plus d'information en description
+// Adamou Walkao
+
+/*
+programme sequentiel qui prend un tableau de 2 elements, pour chaque element du tableau fait l'addition à lui même 1.000.000.000 fois
+puis remplace les elements du tableau par les valeurs retournés avec la fonction somme
+
+execution a donné un resultat de 5.2 sec:
+    tab[2] = {1, 2}
+    valeur retourné tab[2] = {1.000.000.000, 2.000.000.000}
+    
+    temps d'execution 5.2 sec
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
