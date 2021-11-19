@@ -1,4 +1,16 @@
-// Plus d'information en description
+// Adamou Walkao
+
+/*
+programme parrallel qui prend un tableau de 2 elements, pour chaque element du tableau fait l'addition à lui même 1.000.000.000 fois
+puis remplace les elements du tableau par les valeurs retournés avec la fonction somme
+
+execution avec 2 proccessus a donné un resultat de 2 sec:
+    tab[2] = {1, 2}
+    proccessus 0 reçoit 1 puis retourne 1.000.000.000 
+    proccessus 1 reçoit 2 puis retourne 2.000.000.000
+    
+    temps d'execution 2.7 sec
+*/
 
 #include <mpi.h>
 #include <stdio.h>
